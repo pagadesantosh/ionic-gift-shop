@@ -1,0 +1,57 @@
+.login-container {
+  text-align: center;
+}
+
+ion-button {
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #e60000;
+}
+
+ion-note {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.facebook-btn {
+  --background: #3b5998;
+  --background-activated: #334d84;
+  --background-focused: #3b5998;
+  --color: white;
+}
+
+.google-btn {
+  --background: #db4437;
+  --background-activated: #c33d2e;
+  --background-focused: #db4437;
+  --color: white;
+}
+
+.twitter-btn {
+  --background: #1da1f2;
+  --background-activated: #1991e2;
+  --background-focused: #1da1f2;
+  --color: white;
+}
+
+.apple-btn {
+  --background: #000000;
+  --background-activated: #333333;
+  --background-focused: #000000;
+  --color: white;
+}
+
