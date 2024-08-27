@@ -26,6 +26,7 @@ import {
   IonSearchbar,
   IonButtons,
   IonBadge,
+  IonMenuButton
 } from '@ionic/angular/standalone';
 import { RouterLink } from '@angular/router';
 import { Subscription } from 'rxjs';
@@ -61,6 +62,7 @@ import { CartService } from 'src/app/services/cart/cart.service';
     IonItem,
     IonThumbnail,
     IonButtons,
+    IonMenuButton
   ],
 })
 export class HomePage implements OnInit, OnDestroy {

@@ -31,5 +31,13 @@ export const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
+  },
+  {
+    path: 'about',
+    loadComponent: () => import('./pages/home/about/about.page').then( m => m.AboutPage)
+  },
+  {
+    path: 'privacy',
+    loadComponent: () => import('./pages/home/privacy/privacy.page').then( m => m.PrivacyPage)
   }
 ];
